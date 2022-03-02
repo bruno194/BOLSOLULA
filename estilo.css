@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(mito.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: green;
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(250, 234, 7);
+}
+
+header > p {
+    color: white;
+    font-size: 20px;
+    padding: 5px 5px 5px 60px;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: auto;
+    padding: 5px;
+
+}
+
+main > img {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+main > h2 {
+    font-size: 38px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(24, 66, 22);
+}
+
+main > p {
+    font-size: 25px;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgb(9, 80, 9);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(194, 120, 23);
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+div#video > iframe{
+    display: block;
+    margin: auto;
+}
